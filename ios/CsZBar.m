@@ -122,7 +122,7 @@
 
             self.scanReader.cameraOverlayView = polygonView;
         }
-        self.scanReader.scanCrop = CGRectMake(0.49, 0.10, 0.02, 0.8);
+        self.scanReader.scanCrop = CGRectMake(0.49, 0.10, 0.02, 1.5);
 
         [self.viewController presentViewController:self.scanReader animated:YES completion:nil];
     }
